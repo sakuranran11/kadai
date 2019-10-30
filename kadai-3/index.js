@@ -8,3 +8,29 @@ console.log(sum)
  console.log(hasDog || hasCat)
  console.log(hasDog && hasCat)
 console.log(!hasDog && !hasCat)
+
+const score = 85
+
+if (score >= 90) {
+    console.log('とても良い')
+}
+const day = parseInt(Process.argv[2])
+
+if (day % 3 === 0) {
+    console.log('あなたは慎重な性格です')
+} else {
+  console.log('不明')
+}
+let sum = 0
+
+for (let n = 1; <= 100; n = n + 1) {
+    console.log('1 から' + n +' までの和は'　+ sum+' です')
+    sum = sum + 
+
+// 3の倍数でメッセージを表示する
+ const max = parseInt(process.argv[2])
+
+
+ for (let n = 1; n <= max; n = n + 1) {
+     console.log(n)
+ }
