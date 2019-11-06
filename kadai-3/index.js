@@ -25,7 +25,7 @@ let sum = 0
 
 for (let n = 1; <= 100; n = n + 1) {
     console.log('1 から' + n +' までの和は'　+ sum+' です')
-    sum = sum + 
+    sum = sum +
 
 // 3の倍数でメッセージを表示する
  const max = parseInt(process.argv[2])
@@ -34,3 +34,18 @@ for (let n = 1; <= 100; n = n + 1) {
  for (let n = 1; n <= max; n = n + 1) {
      console.log(n)
  }
+
+ const day = parsetInt (process.argv[2])
+
+ if (day % 3=== 0) {
+     console.log('あなたはAAな性格です')
+ }　else if(day % 3 ===1){
+     console.log('あなたはBBBな性格です')
+     else if (day % 4 ===2)
+     console.log('あなたはCCCCCCな性格です')
+ }
+
+function test() {
+    console.log('hello')
+    console.log(1+1)
+}
