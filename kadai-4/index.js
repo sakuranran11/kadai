@@ -20,3 +20,9 @@ setTimeout(
 },
 2000
 )
+
+const animals = ['cat', 'dog', 'rabbit', 'lion']
+console.log(animals)
+
+const a = [1,2,3,4,5,]
+console.log(a)
